@@ -1,5 +1,27 @@
 [
   {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.tarochat.chatmessage_main",
+      "sha256_cert_fingerprints":
+        ["FD:2D:63:48:63:83:3E:27:A5:24:53:B1:57:C1:4C:59:5C:AA:46:02:4B:2D:73:DB:16:71:E5:8A:28:AF:AD:40"]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.tarochat.chatmain",
+      "sha256_cert_fingerprints": [
+        "90:CC:11:0E:52:4F:FB:2C:BD:16:E9:28:98:14:57:97:C3:5D:BB:3E:EE:DD:5A:80:BC:F7:B5:41:9D:2F:7E:27"
+      ]
+    }
+  },
+  {
     "relation": [
       "delegate_permission/common.handle_all_urls",
       "delegate_permission/common.get_login_creds"
