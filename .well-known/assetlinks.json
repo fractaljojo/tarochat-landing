@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.tarochat.chat",
+      "sha256_cert_fingerprints": [
+        "06:57:27:5E:B1:55:52:59:71:F0:81:E3:C4:C7:FB:F4:99:B3:4E:59:86:79:E4:7F:20:3E:8D:BC:10:92:0F:73"
+      ]
+    }
+  }
+]
